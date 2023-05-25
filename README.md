@@ -6,17 +6,14 @@ Melissa Montemayor Riojas > A01283698
 ## 1. Capturar una imagen de la webcam por un ROS Node en Python (en Linux), detectar un objeto verde en la imagen, calcular las coordenadas X y Y del objeto (se puede utilizar un Aruco para el mismo fin).
 `print()`
 ### Nodos y qué hace cada uno:
-### Publicar imagen
+* Publicar imagen
 'Image.py'
 Este nodo es el encargado de publicar la imagen de la cámara.
 
-### Detectar objetos verdes 
+* Detectar objetos verdes 
 'Objects.py'
 Este nodo es el encargado de la detección de los objetos color verde y obtener las coordenadas.
 
-### Calcular coordenadas
-'Coordinates.py'
-Este nodo es
 
 ## 2. Crear una librería de C++ (*.so en Linux, *.dll en Windows) que multiplique los valores de las coordenadas por 100.
 ## 3. Cargar la librería de C++ en el ROS Node para hacer la operación de multiplicación.
