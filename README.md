@@ -1,8 +1,11 @@
 # Tarea Medio Término Interfases
 TE3003B.503 > Tarea Medio Término Interfases
+Melissa Montemayor Riojas > A01283698
 
 
 ## 1. Capturar una imagen de la webcam por un ROS Node en Python (en Linux), detectar un objeto verde en la imagen, calcular las coordenadas X y Y del objeto (se puede utilizar un Aruco para el mismo fin).
+`print()`
+
 ## 2. Crear una librería de C++ (*.so en Linux, *.dll en Windows) que multiplique los valores de las coordenadas por 100.
 ## 3. Cargar la librería de C++ en el ROS Node para hacer la operación de multiplicación.
 ## 4. Publicar el resultado con su timestamp en un ROS Topic.
