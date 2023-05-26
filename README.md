@@ -9,12 +9,12 @@ Melissa Montemayor Riojas > A01283698
 ### Publicar imagen
 `Image.py`
 Este nodo es el encargado de publicar la imagen de la cámara.  
-![Image.py](Image.PNG)
+![Image.py](Pictures/Image.PNG)
 
 ### Detectar objetos verdes 
 `Objects.py`
 Este nodo es el encargado de la detección de los objetos color verde y obtener las coordenadas.
-
+![Objects.py](Pictures/Green.PNG)
 
 ## 2. Crear una librería de C++ (*.so en Linux, *.dll en Windows) que multiplique los valores de las coordenadas por 100.
 ## 3. Cargar la librería de C++ en el ROS Node para hacer la operación de multiplicación.
