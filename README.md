@@ -8,12 +8,17 @@ Melissa Montemayor Riojas > A01283698
 ### Nodos y qué hace cada uno:
 ### Publicar imagen
 `Image.py`
+
+
+Imagen de demostración donde obtenemos los vectores de la imagen.
+![Demo](Pictures/ImagePy.png width=100)
+
+
 Este nodo es el encargado de publicar la imagen de la cámara.  
 ![Image.py](Pictures/Image.PNG)
 
 
-Imagen de demostración donde obtenemos los vectores de la imagen.
-![Demo](Pictures/ImagePy.png)
+
 
 ### Detectar objetos verdes 
 `Objects.py`
