@@ -6,7 +6,7 @@ Melissa Montemayor Riojas > A01283698
 ## 1. Capturar una imagen de la webcam por un ROS Node en Python (en Linux), detectar un objeto verde en la imagen, calcular las coordenadas X y Y del objeto (se puede utilizar un Aruco para el mismo fin).
 
 ### Nodos y qué hace cada uno:
-* Publicar imagen
+### * Publicar imagen
 `Image.py`
 Este nodo es el encargado de publicar la imagen de la cámara.  
 ![Image.py](Pictures/Image.PNG)
