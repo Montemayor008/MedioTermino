@@ -11,6 +11,8 @@ Melissa Montemayor Riojas > A01283698
 
 
 Imagen de demostración donde obtenemos los vectores de la imagen.
+
+
 ![Demo](Pictures/ImagePy.png)
 
 
