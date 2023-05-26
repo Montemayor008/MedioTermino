@@ -11,7 +11,7 @@ Melissa Montemayor Riojas > A01283698
 
 
 Imagen de demostración donde obtenemos los vectores de la imagen.
-![Demo](Pictures/ImagePy.png | width=100)
+![Demo](Pictures/ImagePy.png =250x250)
 
 
 Este nodo es el encargado de publicar la imagen de la cámara.  
