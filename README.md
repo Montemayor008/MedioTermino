@@ -11,7 +11,7 @@ Melissa Montemayor Riojas > A01283698
 Este nodo es el encargado de publicar la imagen de la cámara.  
 ![Image.py](Pictures/Image.PNG)
 Imagen de demostración.
-![Demo](Pictures/ImagePy.png)
+![Demo](Pictures/ImagePy.png){: width="300px"}
 
 ### Detectar objetos verdes 
 `Objects.py`
