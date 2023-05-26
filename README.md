@@ -10,8 +10,8 @@ Melissa Montemayor Riojas > A01283698
 `Image.py`
 Este nodo es el encargado de publicar la imagen de la cámara.  
 ![Image.py](Pictures/Image.PNG)
-Imagen de demostración
-![ImagePy.py](Pictures/ImagePy.PNG)
+Imagen de demostración.
+![Demo](Pictures/ImagePy.PNG)
 
 ### Detectar objetos verdes 
 `Objects.py`
