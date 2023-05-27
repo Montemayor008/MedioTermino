@@ -4,42 +4,43 @@ import rospy
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 
-def camera_publisher():
-    # Inicializar el nodo de ROS
-    rospy.init_node('camera_publisher', anonymous=True)
+def capture_image():
+    # Initialize the ROS node
+    rospy.init_node('image_node', anonymous=True)
 
-    # Crear un objeto CvBridge
+    # Create CvBridge object
     bridge = CvBridge()
 
-    # Crear un objeto VideoCapture para capturar imágenes desde la cámara
+    # Access webcam
     cap = cv2.VideoCapture(0)
 
-    # Crear un objeto ImagePublisher para publicar imágenes en el tópico de ROS
-    image_pub = rospy.Publisher('/camera/image_raw', Image, queue_size=10)
+    # Publish the image in a topic
+    image_pub = rospy.Publisher('image_topic', Image, queue_size=10)
 
-    # Definir la frecuencia de publicación
-    rate = rospy.Rate(10) # 10 Hz
+    # Publish Rate
+    rate = rospy.Rate(10)  
+
 
     while not rospy.is_shutdown():
-        # Capturar la imagen desde la cámara
+        # Capture Image
         ret, frame = cap.read()
 
-        # Comprobar si la captura de la imagen fue exitosa
-        if not ret:
-            rospy.logwarn("Error al capturar la imagen desde la cámara")
-            continue
+        #if not ret:
+        #    rospy.logwarn("Error al capturar la imagen desde la camara")
+        #    continue
 
-        # Convertir la imagen de OpenCV a un mensaje de imagen de ROS
+        # Convert image to ROS format
         image_msg = bridge.cv2_to_imgmsg(frame, encoding="bgr8")
 
-        # Publicar el mensaje de imagen en el tópico de ROS
+        # Publish image on topic
         image_pub.publish(image_msg)
 
-    # Liberar los recursos
+
+    # Release resources
     cap.release()
 
 if __name__ == '__main__':
     try:
-        camera_publisher()
+        capture_image()
     except rospy.ROSInterruptException:
         pass
