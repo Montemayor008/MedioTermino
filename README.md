@@ -22,6 +22,7 @@ Melissa Montemayor Riojas > A01283698
 ### Detectar objetos verdes 
 `object_node`
 Este nodo es el encargado de la detección de los objetos color verde y obtener las coordenadas para publicarlas en `object_topic`.
+
 ![Objects.py](Pictures/Green.PNG)
 
 ## 2. Crear una librería de C++ (*.so en Linux, *.dll en Windows) que multiplique los valores de las coordenadas por 100.
