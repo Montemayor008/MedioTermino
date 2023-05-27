@@ -7,8 +7,7 @@ Melissa Montemayor Riojas > A01283698
 
 ### Nodos y qué hace cada uno:
 ### Publicar imagen
-`Image.py` Located in: `Files/src/image_package/src/image.py`
-
+`Image.py`
 
 1. Imagen de demostración donde obtenemos los vectores de la imagen.
 
