@@ -6,7 +6,10 @@ import grpc
 import coordinates_pb2
 import coordinates_pb2_grpc
 
+<<<<<<< HEAD
 # Receives coordinates from server 
+=======
+>>>>>>> 617bf7a62f862070743bf502e15df852ab36596c
 def run():
     # NOTE(gRPC Python Team): .close() is possible on a channel and should be
     # used in circumstances in which the with statement does not fit the needs

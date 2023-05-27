@@ -3,7 +3,11 @@ syntax = "proto3";
 package RpcDemo;
 
 message PointStamped {
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 617bf7a62f862070743bf502e15df852ab36596c
   message Point{
     float x = 1;
     float y = 2;

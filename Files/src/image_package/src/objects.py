@@ -9,7 +9,10 @@ import cv2
 coordLibrary = ctypes.CDLL("/home/meli/Documents/MedioTermino/Files/src/image_package/src/library/lib.so")
 
 class Objects:
+<<<<<<< HEAD
     # Subscribe and Publish on Ros topics
+=======
+>>>>>>> 617bf7a62f862070743bf502e15df852ab36596c
     def __init__(self):
         self.bridge = CvBridge()
         self.image_sub = rospy.Subscriber("image_topic", Image, self.objects)
@@ -17,7 +20,10 @@ class Objects:
         self.coord = PointStamped()
         self.coord.header.frame_id = "camera_frame"
 
+<<<<<<< HEAD
     # Proccess image to detect objects
+=======
+>>>>>>> 617bf7a62f862070743bf502e15df852ab36596c
     def objects(self, data):
         cv_image = self.bridge.imgmsg_to_cv2(data, "bgr8")
         hsv_image = cv2.cvtColor(cv_image, cv2.COLOR_BGR2HSV)
@@ -48,7 +54,11 @@ class Objects:
         cv2.imshow("Object Camera", cv_image)
         cv2.waitKey(1)
 
+<<<<<<< HEAD
 # Initializes the ROS node and starts to detect objects
+=======
+
+>>>>>>> 617bf7a62f862070743bf502e15df852ab36596c
 def main():
     rospy.init_node('object_node')
     detector = Objects()

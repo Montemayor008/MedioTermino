@@ -11,6 +11,7 @@ import rospy
 from geometry_msgs.msg import PointStamped
 
 
+<<<<<<< HEAD
 # Handles coordinate communication with the gRPC CoordsCommServicer
 class Comm(coordinates_pb2_grpc.CoordsCommServicer):
 
@@ -20,6 +21,13 @@ class Comm(coordinates_pb2_grpc.CoordsCommServicer):
         rospy.Subscriber("object_topic", PointStamped, self.coord_callback)
 
     # Retrieves coordinates    
+=======
+
+class Comm(coordinates_pb2_grpc.CoordsCommServicer):
+    def __init__(self):
+        self.coords = PointStamped()
+        rospy.Subscriber("object_topic", PointStamped, self.coord_callback)
+>>>>>>> 617bf7a62f862070743bf502e15df852ab36596c
     def GetCoords(self, request, context):
         return coordinates_pb2.PointStamped(
           
@@ -32,7 +40,10 @@ class Comm(coordinates_pb2_grpc.CoordsCommServicer):
                 frame_id=self.coords.header.frame_id
             )
         )
+<<<<<<< HEAD
     # Update coordinates
+=======
+>>>>>>> 617bf7a62f862070743bf502e15df852ab36596c
     def coord_callback(self,data):
         self.coords = data
 
@@ -46,7 +57,11 @@ def terminate_server(signum, frame):
 
 
 
+<<<<<<< HEAD
 # Initializes the server
+=======
+
+>>>>>>> 617bf7a62f862070743bf502e15df852ab36596c
 def serve():
     port = '50016'
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))

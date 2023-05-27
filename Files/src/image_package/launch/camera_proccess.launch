@@ -1,7 +1,11 @@
 <launch>
+<<<<<<< HEAD
   <!-- Start image_node -->
   <node name="image_node" pkg="image_package" type="image.py" output="screen" />
   <!-- Start object_node -->
+=======
+  <node name="image_node" pkg="image_package" type="image.py" output="screen" />
+>>>>>>> 617bf7a62f862070743bf502e15df852ab36596c
   <node name="object_node" pkg="image_package" type="objects.py" output="screen" />
 
 </launch>
