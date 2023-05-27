@@ -7,9 +7,18 @@ Melissa Montemayor Riojas > A01283698
 
 ### Nodos y qué hace cada uno:
 ### Publicar imagen
-`Image.py`
-Este nodo es el encargado de publicar la imagen de la cámara.  
+`Image.py` Located in: `Files/src/image_package/src/image.py`
+
+
+1. Imagen de demostración donde obtenemos los vectores de la imagen.
+
+![Demo](Pictures/ImagePy.png)
+
+
+`webcam_node`Es el nodo encargado de publicar la imagen de la cámara al tópico `captured_image`.  
 ![Image.py](Pictures/Image.PNG)
+
+
 
 ### Detectar objetos verdes 
 `Objects.py`
