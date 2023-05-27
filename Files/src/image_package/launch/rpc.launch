@@ -1,0 +1,5 @@
+<launch>
+  <node name="image_node" pkg="image_package" type="image.py" output="screen" />
+  <node name="object_node" pkg="image_package" type="objects.py" output="screen" />
+  <node name="server_node" pkg="image_package" type="server.py" output="screen" />
+</launch>

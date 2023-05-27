@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{17D3354A-693C-4D67-A053-5055112D1B1C}|Default">
+  <MonoDevelop.Ide.ItemProperties.rpc PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="rpc/Program.cs">
+    <Files>
+      <File FileName="rpc/Program.cs" Line="12" Column="13" />
+      <File FileName="rpc/Files/grpc.cs" Line="13" Column="6" />
+      <File FileName="rpc/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="rpc/packages.config" Line="1" Column="1" />
+      <File FileName="rpc/Files/coordinates.proto" Line="3" Column="16" />
+      <File FileName="rpc/Files/rpc.cs" Line="10" Column="18" />
+      <File FileName="../../../../../../../../usr/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" Line="2218" Column="5" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="rpc" expanded="True">
+            <Node name="rpc" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
