@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package RpcDemo;
+
+message PointStamped {
+ 
+  message Point{
+    float x = 1;
+    float y = 2;
+    float z = 3;
+    uint32 seq = 4;
+    uint64 stamp = 5;
+    string frame_id = 6;
+  }
+
+  Point point = 2;
+}
+
+message Empty{}
+
+service CoordsComm{
+  rpc GetCoords(Empty) returns (PointStamped) {}
+}
