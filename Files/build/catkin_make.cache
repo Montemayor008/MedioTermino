@@ -1,0 +1,2 @@
+image_package
+-DCATKIN_DEVEL_PREFIX=/home/meli/Documents/MedioTermino/Files/devel -DCMAKE_INSTALL_PREFIX=/home/meli/Documents/MedioTermino/Files/install -G Unix Makefiles

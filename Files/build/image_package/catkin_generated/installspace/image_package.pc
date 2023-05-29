@@ -1,0 +1,8 @@
+prefix=/home/meli/Documents/MedioTermino/Files/install
+
+Name: image_package
+Description: Description of image_package
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
