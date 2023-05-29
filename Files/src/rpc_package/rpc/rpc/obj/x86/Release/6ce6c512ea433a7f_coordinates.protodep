@@ -1,2 +1,0 @@
-obj/x86/Release/Files/Coordinates.cs \
-obj/x86/Release/Files/CoordinatesGrpc.cs: Files/coordinates.proto
