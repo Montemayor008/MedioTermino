@@ -37,5 +37,8 @@ Este nodo es el encargado de la detección de los objetos color verde y obtener 
 ## 5. Crear un Wrapper de gRPC para convertir el ROS Topic de las coordenadas del objeto a un servicio RPC.
 ![Client](Pictures/Client.png)
 ## 6. En C# crear un programa que tome las coordenadas del objeto desde el servicio RPC y las despliegue en la terminal. (De preferencia en Windows con Visual Studio, pero se puede utilizar Java o MonoDevelop en Linux).
+![Client](Pictures/Csharp.png)
 ## 7. Utilizar grpc-Gateway para que el Wrapper haga disponible el servicio como un REST-API
+![Client](Pictures/Gateway.png)
 ## 8. En Postman (o Flask en Python), adquirir las coordenadas de objeto desde el nuevo REST-API, y guardar el dato en un archivo JSON.
+![Client](Pictures/API.png)
